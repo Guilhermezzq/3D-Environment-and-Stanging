@@ -10,9 +10,29 @@ Drei Helpers: Leveraging the utilities available in Drei to simplify common task
 Spearkles: Integrates visual effects like sparkling particles to add detail and dynamism to the scene.
 Sky, Clouds, and Stars: Includes atmospheric elements such as sky, clouds, and stars to create an immersive and captivating environment.
 Environment Map and HDR Images: Incorporates environment maps using files and HDR images to render materials with high fidelity and realism.
-Custom Environment and LightFormer: Allows customization of the environment and lighting, enabling the creation of unique and engaging atmospheres.
+-- Custom Environment and LightFormer: Allows customization of the environment and lighting, enabling the creation of unique and engaging atmospheres.
 
-# Technologies Used:
- Three.js: JavaScript library for creating and rendering 3D graphics in the browser.
- React Three Fiber: React wrapper for Three.js, simplifying the development of 3D applications with React.
- Drei: Library of utilities for React Three Fiber, offering additional components and tools to ease development.
+
+# Three.js - Environment and Staging / Como Usar Este Repositório !
+
+## Setup and Technologies Used:
+Three.js: JavaScript library for creating and rendering 3D graphics in the browser.
+Download [three.js](https://threejs.org/).
+
+Drei: Library of utilities for React Three Fiber, offering additional components and tools to ease development.
+Download [React Three Drei](https://github.com/pmndrs/drei#readme).
+
+PolyHave: The Public 3D Asset Library with HDRIs etc...
+Download [polyhaven](https://polyhaven.com/).
+
+
+
+Run this followed commands:
+ 
+``` terminal
+# Install dependencies (only the first time)
+npm install three
+npm install leva@0.9
+
+# Run the local server at localhost:8080
+npm run dev
