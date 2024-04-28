@@ -23,7 +23,7 @@
 ### Custom Environment and LightFormer: Allows customization of the environment and lighting, enabling the creation of unique and engaging atmospheres.
 
 
-# Three.js - Environment and Staging / Como Usar Este Repositório !
+# Three.js - Environment and Staging 
 
 ## Setup and Technologies Used:
 Three.js: JavaScript library for creating and rendering 3D graphics in the browser.
