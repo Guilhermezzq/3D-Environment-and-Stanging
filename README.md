@@ -5,12 +5,11 @@ Este projeto é uma demonstração de um ambiente e cenário interativo utilizan
 
 ## Ambient Light e Directional Light: O projeto incorpora iluminação ambiente e direcional para criar efeitos realistas de iluminação na cena.
 
-## Sombras: Utiliza sombras para adicionar profundidade e realismo à cena, proporcionando uma sensação de presença aos objetos 
-renderizados.
+## Sombras: Utiliza sombras para adicionar profundidade e realismo à cena, proporcionando uma sensação de presença aos objetos renderizados.
 
 ## OrbitControls: Implementa controles de câmera interativos, permitindo que os usuários naveguem pela cena de forma intuitiva.
 
-##useHelper: Facilita o posicionamento e alinhamento de objetos na cena, fornecendo ferramentas auxiliares para orientação durante o desenvolvimento.
+## useHelper: Facilita o posicionamento e alinhamento de objetos na cena, fornecendo ferramentas auxiliares para orientação durante o desenvolvimento.
 
 ## Drei Helpers: Aproveita os utilitários disponíveis em Drei para simplificar tarefas comuns, como a criação de grades, eixos e outros elementos auxiliares.
 ## Spearkles: Integra efeitos visuais como partículas brilhantes para adicionar detalhes e dinamismo à cena.
