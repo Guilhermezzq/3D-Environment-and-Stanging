@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+# Descrição do Projeto
+Este projeto é uma demonstração de um ambiente e cenário interativo utilizando tecnologias como Three.js, React Three Fiber e Drei. Ele apresenta uma cena tridimensional com suporte para ambientes e cenários personalizados, criando uma experiência imersiva para os usuários.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Recursos Principais:
+Ambient Light e Directional Light: O projeto incorpora iluminação ambiente e direcional para criar efeitos realistas de iluminação na cena.
+Sombras: Utiliza sombras para adicionar profundidade e realismo à cena, proporcionando uma sensação de presença aos objetos renderizados.
+OrbitControls: Implementa controles de câmera interativos, permitindo que os usuários naveguem pela cena de forma intuitiva.
+useHelper: Facilita o posicionamento e alinhamento de objetos na cena, fornecendo ferramentas auxiliares para orientação durante o desenvolvimento.
+Drei Helpers: Aproveita os utilitários disponíveis em Drei para simplificar tarefas comuns, como a criação de grades, eixos e outros elementos auxiliares.
+Spearkles: Integra efeitos visuais como partículas brilhantes para adicionar detalhes e dinamismo à cena.
+Sky, Clouds e Estrelas: Inclui elementos atmosféricos como céu, nuvens e estrelas para criar um ambiente envolvente e cativante.
+Mapa Ambiente e Imagens HDR: Incorpora mapas de ambiente utilizando arquivos e imagens HDR para renderizar materiais com alta fidelidade e realismo.
+Ambiente Personalizado e LightFormer: Permite a personalização do ambiente e da iluminação, possibilitando a criação de atmosferas únicas e envolventes.
+# Tecnologias Utilizadas:
+Three.js: Biblioteca JavaScript para criação e renderização de gráficos 3D no navegador.
+React Three Fiber: Wrapper React para Three.js, simplificando o desenvolvimento de aplicativos 3D com React.
+Drei: Biblioteca de utilitários para React Three Fiber, oferecendo componentes e ferramentas adicionais para facilitar o desenvolvimento.
