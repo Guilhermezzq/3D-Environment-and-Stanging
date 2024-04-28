@@ -10,7 +10,7 @@ Drei Helpers: Leveraging the utilities available in Drei to simplify common task
 Spearkles: Integrates visual effects like sparkling particles to add detail and dynamism to the scene.
 Sky, Clouds, and Stars: Includes atmospheric elements such as sky, clouds, and stars to create an immersive and captivating environment.
 Environment Map and HDR Images: Incorporates environment maps using files and HDR images to render materials with high fidelity and realism.
--- Custom Environment and LightFormer: Allows customization of the environment and lighting, enabling the creation of unique and engaging atmospheres.
+### Custom Environment and LightFormer: Allows customization of the environment and lighting, enabling the creation of unique and engaging atmospheres.
 
 
 # Three.js - Environment and Staging / Como Usar Este Repositório !
@@ -34,5 +34,5 @@ Run this followed commands:
 npm install three
 npm install leva@0.9
 
-# Run the local server at localhost:8080
-npm run dev
+# Run the local server at ...
+npm start
